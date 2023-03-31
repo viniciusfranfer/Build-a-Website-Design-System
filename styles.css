@@ -1,0 +1,132 @@
+body {
+    margin: 0 10%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    border: 1.5px solid black;
+    margin-bottom: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    min-width: 950px;
+    max-width: 1500px;
+}
+
+
+/* Colors */
+
+h1 {
+    font-size: 50px;
+    margin: 2% 0;
+}
+
+.color-box-container {
+    width: 100%;
+}
+
+.color-box {
+    display: inline-block;
+    width: 33%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 27px;
+    margin: 2% 0;
+}
+
+.color-box-container p {
+    margin: 10px 0;
+}
+
+.color-box h4 {
+    margin: 10px;
+}
+
+.salmon {
+    background-color: #FA8072;
+    color: white;
+}
+
+.gold {
+    background-color: #FFD700;
+}
+
+.thistle {
+    background-color: #D8BFD8;
+}
+
+.olive {
+    background-color: #808000;
+    color: white;
+}
+
+
+/* Fonts */
+
+.fonts-container {
+    text-align: center;
+    margin-bottom: 1.5%;
+}
+
+.fonts {
+    display: inline-block;
+    width: 45%;
+    line-height: 45px;
+}
+
+.fonts h3 {
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.alkatra {
+    font-family: 'Alkatra', cursive;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* Text Style */
+
+.text-style-container h1 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.text-style-container h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.text-style-container p {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: square;
+    position: relative;
+    left: 2.5%;
+    line-height: 25px;
+}
